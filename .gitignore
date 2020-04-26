@@ -1,2 +1,31 @@
+
+## SBT ###
+target/
+.history
+.cache
+.lib/
+dist/*
+target/
+project/project/
+project/target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+pico-*/
+
+### Intellij ###
+*.iml
+.idea/
+out/
+### Scala ###
+*.class
+*.log
+logs/
+server/logs/
+### OSX ###
+.DS_Store
+
+
 *.class
 *.log
